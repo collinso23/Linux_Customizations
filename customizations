@@ -1,0 +1,15 @@
+Shell work
+https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+https://github.com/ranger/ranger
+
+Vim work
+" List of scripts
+https://www.vim.org/vimscriptlinks.php
+
+" Vim-Plug is the plugin manager used for vim
+https://github.com/junegunn/vim-plug
+
+" Some useful information on the better plugins installed
+https://github.com/junegunn/vim-plug
+https://github.com/tpope/vim-fugitive
+https://github.com/scrooloose/nerdtree

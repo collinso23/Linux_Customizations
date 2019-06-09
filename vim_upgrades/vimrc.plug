@@ -1,0 +1,19 @@
+
+call plug#begin('~/.vim/plugged')
+
+" Vim-Sensible a universal set of deftaults
+Plug 'tpope/vim-sensible'
+
+" Multiple Plug commands can be written in a single line using | separators
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+
+" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
+Plug 'junegunn/vim-easy-align'
+
+" Fetches https://github.com/tpope/vim-fugitive | A interative git plugin 
+Plug 'tpope/vim-fugitive'
+
+" Nerd Tree a file explorer in vim | enabled on startup 
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+call plug#end()
