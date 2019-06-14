@@ -88,4 +88,6 @@ if filereadable(expand("~/.vimrc.plug"))
 "Auto start NerdTree on vim startup
 autocmd vimenter * NERDTree
 
+let g:python_highlight_all = 1
+
 endif

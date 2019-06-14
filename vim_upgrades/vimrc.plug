@@ -1,6 +1,9 @@
 
 call plug#begin('~/.vim/plugged')
 
+" Enhanced Python Syntax Highlighting
+Plug 'vim-python/python-syntax'
+
 " Vim-Sensible a universal set of deftaults
 Plug 'tpope/vim-sensible'
 
