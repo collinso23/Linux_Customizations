@@ -1,0 +1,146 @@
+!
+! URxvt
+!
+
+URxvt*termName: rxvt-256color
+URxvt.cursorUnderline: false
+URxvt.cursorBlink: true
+URxvt*scrollBar: false
+URxvt*borderLess: false
+URxvt.fading: 0
+URxvt*hold: boolean
+URxvt.intensityStyles: false
+!URxvt.perl-ext-common: default,matcher,clipboard,keyboard-select,selection_to_clipboard
+URxvt.perl-ext-common: default,matcher,clipboard,keyboard-select
+URxvt*urgentOnBell: false
+URxvt.iconFile: /usr/share/icons/gnome-colors-common/24x24/apps/terminal.png
+
+!
+! URLs
+!
+
+URxvt.matcher.rend.0: Uline Bold fg6
+URxvt.keysym.Control-l: perl:matcher:last
+URxvt.keysym.Control-u: perl:matcher:list
+
+!
+! Clickable URLs
+!
+
+URxvt.url-launcher: firefox
+URxvt.matcher.button: 1
+
+!
+! Paste
+!
+
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+
+!
+! Fonts
+!
+
+URxvt.letterSpace: 0
+!URxvt*font:xft:DejaVuSansMono:size=10, \
+!    xft:unifont:medium
+!URxvt*boldFont:xft:DejaVuSansMono:size=10, \
+!    xft:unifont:medium
+URxvt*font:xft:DejaVuSansMono:size=10, \
+    xft:unifont:medium
+URxvt*boldFont:xft:DejaVuSansMono:size=10, \
+    xft:unifont:medium
+
+!
+! Select text with the keyboard
+!
+
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+
+!
+! Search text with keyboard
+!
+
+URxvt.keysym.M-s: perl:keyboard-select:search
+
+!
+! Fix for Home and End keys
+!
+
+URxvt.keysym.Home: \033[1~
+URxvt.keysym.End: \033[4~
+URxvt.keysym.KP_Home: \033[1~
+URxvt.keysym.KP_End:  \033[4~
+
+!
+! Cursor theme
+!
+
+Xcursor.theme: Vanilla-DMZ
+
+!
+! Rofi
+!
+
+!rofi.monitor: 0
+rofi.font: Terminus 12
+
+! Solarized.theme
+rofi.color-enabled: true
+rofi.color-window: #002b36, #255662, #0d4350
+rofi.color-normal: #002b36, #839496, #002b36, #0d4350, #839496
+rofi.color-active: #0d4350, #2aa198, #002b36, #839496, #002B36
+rofi.color-urgent: #a83838, #ffffff, #eee8d5, #a83838, #ffffff
+
+! glue_pro_blue.theme
+!rofi.color-enabled: true
+!rofi.color-window: #222222, #111111, #729FCF
+!rofi.color-normal: #222222, #cccccc, #222222, #729FCF, #ffffff
+!rofi.color-active: #222222, #729FCF, #222222, #729FCF, #205171
+!rofi.color-urgent: #222222, #f3843d, #222222, #729FCF, #ffc39c
+
+!
+! Colors
+!
+
+
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #1d1f21
+*.color8:       #969896
+
+! red
+*.color1:       #cc342b
+*.color9:       #cc342b
+
+! green
+*.color2:       #198844
+*.color10:      #198844
+
+! yellow
+*.color3:       #fba922
+*.color11:      #fba922
+
+! blue
+*.color4:       #3971ed
+*.color12:      #3971ed
+
+! magenta
+*.color5:       #a36ac7
+*.color13:      #a36ac7
+
+! cyan
+*.color6:       #3971ed
+*.color14:      #3971ed
+
+! white
+*.color7:       #c5c8c6
+*.color15:      #ffffff
+
+!Transparency
+URxvt.transparent: true
+URxvt.shading: 20
