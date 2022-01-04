@@ -7,6 +7,8 @@ filetype off
 " Turn on syntax highlighting.
 syntax on
 
+colorscheme elflord
+
 " For plug-ins to load correctly.
 filetype plugin indent on
 
@@ -85,8 +87,10 @@ autocmd BufWinEnter *.* silent loadview"
 if filereadable(expand("~/.vimrc.plug"))
     source ~/.vimrc.plug
 
+
+" Uncomment to enable nerd tree by default    
 "Auto start NerdTree on vim startup
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 
 let g:python_highlight_all = 1
 
